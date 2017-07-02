@@ -1,9 +1,0 @@
-1，开启apache-activemq.
-	检查是否成功开启：
-	net stat -an|find "61616"
-	网址：localhost/61616
-2，开启数据库服务。
-	到D:盘进入到mysql文件夹，双击start.bat
- 	看到数据库服务启动成功。
-3，使用navicat连接数据库。查看数据库是否连接成功
-4，可以开启eclipse中项目工程的模块了。

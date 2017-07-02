@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="simulation">
-        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/apache-activemq-5.6.0/example/src"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/apache-activemq-5.6.0/example/transactions/src"/>
-        <property name="context-root" value="simulation"/>
-        <property name="java-output-path" value="/simulation/bin"/>
-    </wb-module>
-</project-modules>

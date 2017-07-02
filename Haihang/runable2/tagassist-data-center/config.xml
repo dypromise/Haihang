@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<configuration>
-	<messageBus brokerUri="failover:tcp://localhost:61616" defaultQueryTimeout="1000">
-		<heartbeat interval="30000"></heartbeat>
-	</messageBus>
-	<dataCenter uuid="91a82170-5c8b-11e1-b86c-0800200c9a66" name="Data Center">
-	</dataCenter>
-</configuration>

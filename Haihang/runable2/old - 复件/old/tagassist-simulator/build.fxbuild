@@ -1,2 +1,0 @@
-jfx.build.stagingdir = ${workspace}/tagassist-simulator/build
-jfx.build.apptitle = tagassist-simulator
