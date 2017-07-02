@@ -1,0 +1,12 @@
+DVC-3610    2206 31JUL12                                                        
+BSM                                                                             
+.V/1TPEK                                                                        
+.F/HU489/01AUG/TXL/Y                                                            
+.I/HX336/01AUG/HKG/H                                                            
+.O/AB8244/01AUG/OSL/Q                                                           
+.N/0079817402003                                                                
+.S/Y/21D/C/004//Y                                                               
+.W/K/3/58                                                                       
+.P/1MARTINUSSEN/GRACIAMS                                                        
+.L/NLMS3G                                                                       
+ENDBSM

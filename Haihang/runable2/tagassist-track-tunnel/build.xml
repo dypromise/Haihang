@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="create_run_jar" name="tagassist-track-tunnel">
+    <property environment="env"/>
+    <property name="tagassist-message-bus.location" value="../tagassist-message-bus"/>
+    <property name="tagassist-common.location" value="../tagassist-common"/>
+    <property name="tagassist-storage.location" value="../tagassist-storage"/>
+    <property name="tagassist-updater.location" value="../tagassist-updater"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="EAR Libraries.libraryclasspath"/>
+    <path id="tagassist-common.classpath">
+        <pathelement location="${tagassist-common.location}/bin"/>
+        <pathelement location="${tagassist-common.location}/libs/activemq-all-5.5.1.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/antlr-2.7.7.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/classmate-0.5.4.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-beanutils-1.8.3.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-collections-3.2.1.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-configuration-1.7.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-lang-2.6.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-lang3-3.1.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-logging-1.1.1.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/core.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/dom4j-1.6.1.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/hibernate-commons-annotations-4.0.1.Final.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/hibernate-core-4.0.0.Final.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/jandex-1.0.3.Final.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/javassist-3.12.1.GA.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/jboss-logging-3.1.0.CR2.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/json-lib-2.4-jdk15.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/log4j-1.2.16.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/slf4j-log4j12-1.5.11.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/jna.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-codec-1.6.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/spring-beans-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/spring-context-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/spring-core-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/ltkjava-10.16.0.240.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/jdom-1.1.3.jar"/>
+        <path refid="EAR Libraries.libraryclasspath"/>
+        <pathelement location="${tagassist-common.location}/libs/RXTXcomm.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/spring-expression-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-httpclient-3.1.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/crowd-integration-client-2.5.3.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/crowd-integration-client-rest-2.5.3.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/slf4j-api-1.5.8.jar"/>
+    </path>
+    <path id="tagassist-message-bus.classpath">
+        <pathelement location="${tagassist-message-bus.location}/bin"/>
+        <path refid="tagassist-common.classpath"/>
+        <pathelement location="${tagassist-message-bus.location}/libs/json-lib-2.4-jdk15.jar"/>
+        <pathelement location="${tagassist-message-bus.location}/libs/slf4j-log4j12-1.5.11.jar"/>
+        <pathelement location="${tagassist-message-bus.location}/libs/activemq-all-5.5.1.jar"/>
+        <pathelement location="${tagassist-message-bus.location}/libs/ezmorph-1.0.6.jar"/>
+        <pathelement location="${tagassist-message-bus.location}/libs/log4j-1.2.16.jar"/>
+        <pathelement location="${tagassist-message-bus.location}/libs/commons-beanutils-1.8.3.jar"/>
+        <pathelement location="${tagassist-message-bus.location}/libs/commons-lang3-3.1.jar"/>
+        <pathelement location="${tagassist-message-bus.location}/libs/spring-beans-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-message-bus.location}/libs/spring-context-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-message-bus.location}/libs/spring-core-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-message-bus.location}/libs/spring-expression-3.2.0.RELEASE.jar"/>
+    </path>
+    <path id="tagassist-storage.classpath">
+        <pathelement location="${tagassist-storage.location}/bin"/>
+        <path refid="tagassist-common.classpath"/>
+        <path refid="tagassist-message-bus.classpath"/>
+        <pathelement location="${tagassist-storage.location}/libs/log4j-1.2.16.jar"/>
+        <pathelement location="${tagassist-storage.location}/libs/commons-lang-2.6.jar"/>
+        <pathelement location="${tagassist-storage.location}/libs/activemq-all-5.5.1.jar"/>
+        <pathelement location="${tagassist-storage.location}/libs/commons-collections-3.2.1.jar"/>
+        <pathelement location="${tagassist-storage.location}/libs/commons-lang3-3.1.jar"/>
+        <pathelement location="${tagassist-storage.location}/libs/commons-configuration-1.7.jar"/>
+        <pathelement location="${tagassist-storage.location}/libs/commons-logging-1.1.1.jar"/>
+        <pathelement location="${tagassist-storage.location}/libs/commons-beanutils-1.8.3.jar"/>
+    </path>
+    <path id="tagassist-track-tunnel.classpath">
+        <pathelement location="bin"/>
+        <path refid="tagassist-common.classpath"/>
+        <path refid="tagassist-message-bus.classpath"/>
+        <path refid="tagassist-storage.classpath"/>
+        <pathelement location="${tagassist-message-bus.location}/libs/log4j-1.2.16.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/spring-context-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/spring-beans-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/spring-core-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/spring-expression-3.2.0.RELEASE.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+                <exclude name="com/greenorbs/tagassist/tracktunnel/hardware/IReader.java"/>
+                <exclude name="com/greenorbs/tagassist/tracktunnel/hardware/Observation.java"/>
+                <exclude name="com/greenorbs/tagassist/tracktunnel/hardware/ObservationReport.java"/>
+                <exclude name="com/greenorbs/tagassist/tracktunnel/hardware/IdentifyListener.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+        <delete dir="build"/>
+        <delete dir="installer"/>
+    </target>
+    <target depends="clean" name="cleanall">
+        <ant antfile="build.xml" dir="${tagassist-common.location}" inheritAll="false" target="clean"/>
+        <ant antfile="build.xml" dir="${tagassist-message-bus.location}" inheritAll="false" target="clean"/>
+        <ant antfile="build.xml" dir="${tagassist-storage.location}" inheritAll="false" target="clean"/>
+    </target>
+    <target depends="cleanall,build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects">
+        <ant antfile="build.xml" dir="${tagassist-common.location}" inheritAll="false" target="build-project"/>
+        <ant antfile="build.xml" dir="${tagassist-message-bus.location}" inheritAll="false" target="build-project"/>
+        <ant antfile="build.xml" dir="${tagassist-storage.location}" inheritAll="false" target="build-project"/>
+    </target>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <exclude name="com/greenorbs/tagassist/tracktunnel/hardware/IReader.java"/>
+            <exclude name="com/greenorbs/tagassist/tracktunnel/hardware/Observation.java"/>
+            <exclude name="com/greenorbs/tagassist/tracktunnel/hardware/ObservationReport.java"/>
+            <exclude name="com/greenorbs/tagassist/tracktunnel/hardware/IdentifyListener.java"/>
+            <classpath refid="tagassist-track-tunnel.classpath"/>
+        </javac>
+    </target>
+    <target depends="build" name="create_run_jar">
+        <jar destfile="build/track-tunnel.jar">
+            <manifest>
+                <attribute name="Main-Class" value="com.greenorbs.tagassist.tracktunnel.Sink"/>
+                <attribute name="Class-Path" value=". libs/activemq-all-5.5.1.jar libs/antlr-2.7.7.jar libs/classmate-0.5.4.jar libs/commons-beanutils-1.8.3.jar libs/commons-collections-3.2.1.jar libs/commons-configuration-1.7.jar libs/commons-lang-2.6.jar libs/commons-lang3-3.1.jar libs/commons-logging-1.1.1.jar libs/dom4j-1.6.1.jar libs/hibernate-commons-annotations-4.0.1.Final.jar libs/hibernate-core-4.0.0.Final.jar libs/hibernate-jpa-2.0-api-1.0.1.Final.jar libs/jandex-1.0.3.Final.jar libs/javassist-3.12.1.GA.jar libs/jboss-logging-3.1.0.CR2.jar libs/jboss-transaction-api_1.1_spec-1.0.0.Final.jar libs/json-lib-2.4-jdk15.jar libs/log4j-1.2.16.jar libs/slf4j-log4j12-1.5.11.jar libs/jna.jar libs/commons-codec-1.6.jar libs/spring-beans-3.2.0.RELEASE.jar libs/spring-context-3.2.0.RELEASE.jar libs/spring-core-3.2.0.RELEASE.jar libs/ltkjava-10.16.0.240.jar libs/jdom-1.1.3.jar libs/RXTXcomm.jar libs/spring-expression-3.2.0.RELEASE.jar libs/json-lib-2.4-jdk15.jar libs/slf4j-log4j12-1.5.11.jar libs/activemq-all-5.5.1.jar libs/ezmorph-1.0.6.jar libs/log4j-1.2.16.jar libs/commons-beanutils-1.8.3.jar libs/commons-lang3-3.1.jar libs/spring-beans-3.2.0.RELEASE.jar libs/spring-context-3.2.0.RELEASE.jar libs/spring-core-3.2.0.RELEASE.jar libs/spring-expression-3.2.0.RELEASE.jar"/>
+            </manifest>
+            <fileset dir="bin"/>
+            <fileset dir="../tagassist-common/bin"/>
+            <fileset dir="../tagassist-message-bus/bin"/>
+        </jar>
+        <delete dir="build/libs"/>
+        <mkdir dir="build/libs"/>
+        <copy file="../tagassist-common/libs/activemq-all-5.5.1.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/antlr-2.7.7.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/classmate-0.5.4.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/commons-beanutils-1.8.3.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/commons-collections-3.2.1.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/commons-configuration-1.7.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/commons-lang-2.6.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/commons-lang3-3.1.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/commons-logging-1.1.1.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/dom4j-1.6.1.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/hibernate-commons-annotations-4.0.1.Final.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/hibernate-core-4.0.0.Final.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/hibernate-jpa-2.0-api-1.0.1.Final.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/jandex-1.0.3.Final.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/javassist-3.12.1.GA.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/jboss-logging-3.1.0.CR2.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/json-lib-2.4-jdk15.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/log4j-1.2.16.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/slf4j-log4j12-1.5.11.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/jna.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/commons-codec-1.6.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/spring-beans-3.2.0.RELEASE.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/spring-context-3.2.0.RELEASE.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/spring-core-3.2.0.RELEASE.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/ltkjava-10.16.0.240.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/jdom-1.1.3.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/RXTXcomm.jar" todir="build/libs"/>
+        <copy file="../tagassist-common/libs/spring-expression-3.2.0.RELEASE.jar" todir="build/libs"/>
+        <copy file="../tagassist-message-bus/libs/json-lib-2.4-jdk15.jar" todir="build/libs"/>
+        <copy file="../tagassist-message-bus/libs/slf4j-log4j12-1.5.11.jar" todir="build/libs"/>
+        <copy file="../tagassist-message-bus/libs/activemq-all-5.5.1.jar" todir="build/libs"/>
+        <copy file="../tagassist-message-bus/libs/ezmorph-1.0.6.jar" todir="build/libs"/>
+        <copy file="../tagassist-message-bus/libs/log4j-1.2.16.jar" todir="build/libs"/>
+        <copy file="../tagassist-message-bus/libs/commons-beanutils-1.8.3.jar" todir="build/libs"/>
+        <copy file="../tagassist-message-bus/libs/commons-lang3-3.1.jar" todir="build/libs"/>
+        <copy file="../tagassist-message-bus/libs/spring-beans-3.2.0.RELEASE.jar" todir="build/libs"/>
+        <copy file="../tagassist-message-bus/libs/spring-context-3.2.0.RELEASE.jar" todir="build/libs"/>
+        <copy file="../tagassist-message-bus/libs/spring-core-3.2.0.RELEASE.jar" todir="build/libs"/>
+        <copy file="../tagassist-message-bus/libs/spring-expression-3.2.0.RELEASE.jar" todir="build/libs"/>
+    </target>
+</project>

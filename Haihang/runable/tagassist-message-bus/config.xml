@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<messageBus brokerUri="failover:tcp://166.111.80.223:61616" defaultQueryTimeout="1000">
+		<heartbeat interval="30000"></heartbeat>
+	</messageBus>
+</configuration>

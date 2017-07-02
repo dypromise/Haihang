@@ -1,0 +1,13 @@
+2016-10-16 11:35:01,526 [main] INFO (org.springframework.context.support.FileSystemXmlApplicationContext:510) - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1551a94: startup date [Sun Oct 16 11:35:01 CST 2016]; root of context hierarchy
+2016-10-16 11:35:01,748 [main] INFO (org.springframework.beans.factory.xml.XmlBeanDefinitionReader:315) - Loading XML bean definitions from file [C:\Users\¶¡Ñî\Desktop\runable\tagassist-track-tunnel\bean.xml]
+2016-10-16 11:35:02,544 [main] INFO (org.springframework.beans.factory.support.DefaultListableBeanFactory:596) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1b80b2: defining beans [sink,trackTunnel,trackReader,impinjReader,statusLight,cautionLight,controller]; root of factory hierarchy
+2016-10-16 11:35:02,761 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-10-16 11:35:04,534 [main] INFO (com.greenorbs.tagassist.tracktunnel.TrackTunnel:230) - Starting up...
+2016-10-16 11:35:04,564 [main] INFO (com.greenorbs.tagassist.tracktunnel.TrackTunnel:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-10-16 11:35:04,573 [main] INFO (com.greenorbs.tagassist.tracktunnel.TrackTunnel:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-10-16 11:35:04,577 [main] INFO (com.greenorbs.tagassist.tracktunnel.TrackTunnel:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-10-16 11:35:04,589 [main] INFO (com.greenorbs.tagassist.tracktunnel.TrackTunnel:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-10-16 11:35:04,595 [main] INFO (com.greenorbs.tagassist.tracktunnel.TrackTunnel:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$TrackTunnelConfig
+2016-10-16 11:35:04,595 [main] INFO (com.greenorbs.tagassist.tracktunnel.TrackTunnel:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.FlightProxyMessages$BaggageArrival
+2016-10-16 11:35:04,605 [main] INFO (com.greenorbs.tagassist.tracktunnel.TrackTunnel:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.FlightProxyMessages$FlightScheduled
+2016-10-16 11:35:04,611 [main] INFO (com.greenorbs.tagassist.tracktunnel.TrackTunnel:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$FlightTerminate

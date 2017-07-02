@@ -1,0 +1,11 @@
+DVC-3610    1753 31JUL12                                                        
+BSM                                                                             
+.V/1TPEK                                                                        
+.F/HU7803/01AUG/CAN/Y                                                           
+.I/HU496/31JUL/SEA/W                                                            
+.N/3880935400002                                                                
+.S/Y/6F/C/002//Y                                                                
+.W/K/2/45                                                                       
+.P/1NIE/LIANZI                                                                  
+.L/NHHW1Y                                                                       
+ENDBSM

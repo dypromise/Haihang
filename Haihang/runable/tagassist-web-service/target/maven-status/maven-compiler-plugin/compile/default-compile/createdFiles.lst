@@ -1,0 +1,6 @@
+com\greenorbs\tagassist\webservice\BusAdapter.class
+com\greenorbs\tagassist\webservice\util\BusUtils.class
+com\greenorbs\tagassist\webservice\FlightService.class
+com\greenorbs\tagassist\webservice\BaggageService.class
+com\greenorbs\tagassist\webservice\UserService.class
+com\greenorbs\tagassist\webservice\util\JsonUtils.class

@@ -1,0 +1,64 @@
+﻿Mysql
+
+MQ安装
+message-bus 只用跑MQ
+
+
+common不需要独立跑
+
+
+datacenter涉及数据库,storage这个只是被依赖而已
+
+
+track-tunnel有些配置没加
+
+
+visual proxy 老的先不用管
+
+
+
+存储：
+
+1、MySQL
+
+2、JDBC，ORM Object Relational Manager，hibernate：ORM的一个实现
+
+
+分布式消息：
+
+1、系统间如何进行状态同步、通信：RPC 远程程序调用；MQ 消息队列（✅）
+message-bus
+
+
+画图：
+1、processing->js
+
+
+其他：
+
+1、JNI，动态链接库（调用其他语言的库）
+
+2、Java log日志
+
+3、Web工程（开发Tomcat，实际Apache）
+
+
+
+track-tunnel:config.xml需要改
+mvvm
+前段模型、动画、判断逻辑
+
+需要改
+
+模拟器：来源数据(tagassist-simulator)
+	   
+径控通道
+
+
+1、web-service
+
+2、trucktunnel模拟器
+
+3、datacenter数据库
+
+4、flightproxy模拟器

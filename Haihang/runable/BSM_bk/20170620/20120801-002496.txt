@@ -1,0 +1,14 @@
+DVC-3610    0444 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU495/01AUG/SEA/Y                                                            
+.O/AA532/01AUG/ORD/S                                                            
+.O/AA4111/01AUG/CLT/S                                                           
+.N/0880567316001                                                                
+.D/PEK//01AUG/1245//PEK42849                                                    
+.S/Y/26D/C/028//Y                                                               
+.W/K/1/14                                                                       
+.P/1BRUMM/CHRISTINAMARIE                                                        
+.L/MDLH0S                                                                       
+.T/42851                                                                        
+ENDBSM

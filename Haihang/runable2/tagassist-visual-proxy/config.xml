@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<messageBus brokerUri="failover:tcp://localhost:61616" defaultQueryTimeout="5000">
+		<heartbeat interval="30000"></heartbeat>
+	</messageBus>
+	<visualProxy uuid="dce23cf0-5d4f-11e2-bcfd-0800200c9a66" name="Visual Proxy">
+	</visualProxy>
+	<storages>
+		<storage name="baggageStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryBaggageStorage" />
+		<storage name="flightStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryFlightStorage" />
+		<storage name="notificationStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryNotificationStorage" />
+	</storages>
+</configuration>

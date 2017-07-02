@@ -1,0 +1,13 @@
+DVC-3610    0510 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU7705/01AUG/SZX/Y                                                           
+.N/3880906842001                                                                
+.D/PEK//01AUG/1310//PEK16509                                                    
+.S/Y/19G/C/128//Y                                                               
+.W/K/1/11                                                                       
+.P/1WANGNANJIANG                                                                
+.Y/HU7001235015                                                                 
+.L/NEVMVQ                                                                       
+.T/16511                                                                        
+ENDBSM

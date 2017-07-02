@@ -1,0 +1,40 @@
+STATUS | wrapper  | 2016/09/07 09:29:43 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/09/07 09:29:43 | Launching a JVM...
+INFO   | jvm 1    | 2016/09/07 09:29:46 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2016/09/07 09:29:46 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2016/09/07 09:29:46 | 
+INFO   | jvm 1    | 2016/09/07 09:29:46 | Java Runtime: Oracle Corporation 1.8.0_65 C:\Program Files\Java\jre1.8.0_65
+INFO   | jvm 1    | 2016/09/07 09:29:46 |   Heap sizes: current=62976k  free=56614k  max=932352k
+INFO   | jvm 1    | 2016/09/07 09:29:46 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=zcy670ZdyvZEIVN7 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=11360 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2016/09/07 09:29:46 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2016/09/07 09:29:46 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2016/09/07 09:29:46 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2016/09/07 09:29:46 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2016/09/07 09:29:46 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2016/09/07 09:29:46 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@3445ab42: startup date [Wed Sep 07 09:29:46 CST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/09/07 09:29:47 |  INFO | PListStore:[C:\Users\間栦\Desktop\old_2\simulation\apache-activemq-5.6.0\bin\win64\..\..\data\localhost\tmp_storage ] started
+INFO   | jvm 1    | 2016/09/07 09:29:47 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\間栦\Desktop\old_2\simulation\apache-activemq-5.6.0\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2016/09/07 09:29:47 |  INFO | ActiveMQ 5.6.0 JMS Message Broker (localhost) is starting
+INFO   | jvm 1    | 2016/09/07 09:29:47 |  INFO | For help or more information please see: http://activemq.apache.org/
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | Listening for connections at: tcp://DESKTOP-87VOL3N:61616
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | Connector openwire Started
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | jetty-7.6.1.v20120215
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | started o.e.j.s.ServletContextHandler{/,null}
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | Started SelectChannelConnector@0.0.0.0:61614
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | Connector websocket Started
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | Listening for connections at: stomp://DESKTOP-87VOL3N:61613
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | Connector stomp Started
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | ActiveMQ JMS Message Broker (localhost, ID:DESKTOP-87VOL3N-11485-1473211787885-0:1) started
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  WARN | Store limit is 102400 mb, whilst the data directory: C:\Users\間栦\Desktop\old_2\simulation\apache-activemq-5.6.0\bin\win64\..\..\data\kahadb only has 5295 mb of usable space
+INFO   | jvm 1    | 2016/09/07 09:29:48 | ERROR | Temporary Store limit is 51200 mb, whilst the temporary data directory: C:\Users\間栦\Desktop\old_2\simulation\apache-activemq-5.6.0\bin\win64\..\..\data\localhost\tmp_storage only has 5295 mb of usable space
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | jetty-7.6.1.v20120215
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | ActiveMQ WebConsole initialized.
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | started o.e.j.w.WebAppContext{/admin,file:/C:/Users/間栦/Desktop/old_2/simulation/apache-activemq-5.6.0/webapps/admin/}
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/09/07 09:29:48 |  INFO | ActiveMQ Console at http://0.0.0.0:8161/admin
+INFO   | jvm 1    | 2016/09/07 09:29:49 |  INFO | started o.e.j.w.WebAppContext{/demo,file:/C:/Users/間栦/Desktop/old_2/simulation/apache-activemq-5.6.0/webapps/demo/}
+INFO   | jvm 1    | 2016/09/07 09:29:49 |  INFO | ActiveMQ Web Demos at http://0.0.0.0:8161/demo
+INFO   | jvm 1    | 2016/09/07 09:29:49 |  INFO | started o.e.j.w.WebAppContext{/fileserver,file:/C:/Users/間栦/Desktop/old_2/simulation/apache-activemq-5.6.0/webapps/fileserver/}
+INFO   | jvm 1    | 2016/09/07 09:29:49 |  INFO | RESTful file access application at http://0.0.0.0:8161/fileserver
+INFO   | jvm 1    | 2016/09/07 09:29:49 |  INFO | Started SelectChannelConnector@0.0.0.0:8161

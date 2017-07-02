@@ -1,0 +1,11 @@
+DVC-3610    1732 31JUL12                                                        
+BSM                                                                             
+.V/1TPEK                                                                        
+.F/HU7603/01AUG/SHA/Y                                                           
+.I/HU496/31JUL/SEA/U                                                            
+.N/3880668906006                                                                
+.S/Y/6D/C/009//Y                                                                
+.W/K/6/98                                                                       
+.P/1WANG/WEI                                                                    
+.L/MZVWFK                                                                       
+ENDBSM

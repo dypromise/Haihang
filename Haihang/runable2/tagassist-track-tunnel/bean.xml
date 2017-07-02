@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	xmlns:util="http://www.springframework.org/schema/util">
+	<bean name="sink" class="com.greenorbs.tagassist.tracktunnel.Sink">
+		<property name="trackTunnels">
+			<list>
+				<ref bean="trackTunnel" />
+			</list>
+		</property>
+	</bean>
+	<bean id="trackTunnel" class="com.greenorbs.tagassist.tracktunnel.TrackTunnel">
+		<property name="UUID">
+			<value>8ef11e48-a635-4655-94a6-85c0c1295250</value>
+		</property>
+		<property name="name">
+			<value>径控通道1</value>
+		</property>
+		<property name="ownerPool">
+			<value>8cf1e5f0-c30a-434d-b97b-b19ea08c671f</value>
+		</property>
+		<property name="distance">
+			<value>0.42</value>
+		</property>
+		<property name="publishBaggageTracked">
+			<value>true</value>
+		</property>
+		<property name="publishBaggageArrival">
+			<value>true</value>
+		</property>
+		<property name="simuMode">
+			<value>false</value>
+		</property>
+		<property name="resetCommand">
+			<value>java -jar tracktunnel.jar</value>
+		</property>
+		<property name="reader" ref="trackReader"></property>
+		<property name="statusLight" ref="statusLight"></property>
+		<property name="cautionLight" ref="cautionLight"></property>
+	</bean>
+
+	<bean id="trackReader" class="com.greenorbs.tagassist.device.beiyang.BeiyangTrackReader2">
+		<property name="IP">
+		    <value>192.168.1.102</value>
+		</property>
+		<property name="port">
+		    <value>5000</value>
+		</property>
+	</bean>
+
+	<bean id="statusLight" class="com.greenorbs.tagassist.device.beiyang2.BeiyangStatusLight">
+		<property name="controller" ref="controller"></property>
+	</bean>
+	<bean id="cautionLight" class="com.greenorbs.tagassist.device.beiyang2.BeiyangCautionLight">
+		<property name="controller" ref="controller"></property>
+	</bean>
+	<bean id="controller"
+		class="com.greenorbs.tagassist.device.beiyang2.BeiyangController"
+		scope="singleton">
+		<property name="serialPort"><value>COM1</value></property>
+		<property name="baudRate"><value>38400</value></property>
+	</bean>
+	
+	<bean id="simuReader" class="com.greenorbs.tagassist.device.simulation.SimulatedReader">
+		<property name="IP">
+		    <value>192.168.50.200</value>
+		</property>
+		<property name="port">
+		    <value>5000</value>
+		</property>
+	</bean>
+</beans>

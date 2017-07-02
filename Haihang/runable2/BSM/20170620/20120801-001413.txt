@@ -1,0 +1,13 @@
+DVC-3610    0027 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU7967/01AUG/IKT/Y                                                           
+.I/HU7280/31JUL/SYX/V                                                           
+.N/3880119255001                                                                
+.D/PEK//01AUG/0827//PEK42813                                                    
+.S/Y/6E/C/124//Y                                                                
+.W/K/1/12                                                                       
+.P/1MIKHAYLICHENKO/EKATERINAMRS                                                 
+.L/NE6H11                                                                       
+.T/42815                                                                        
+ENDBSM

@@ -1,0 +1,14 @@
+DVC-3610    1018 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU7345/01AUG/URC/Y                                                           
+.I/AA565/31JUL/DFW/Y                                                            
+.I/HU496/31JUL/SEA/W                                                            
+.N/3880567655001                                                                
+.D/PEK//01AUG/1818//PEK14629                                                    
+.S/Y/21F/C/077//Y                                                               
+.W/K/1/22                                                                       
+.P/1JONES/CHANTELARLENE                                                         
+.L/NGDW2Z                                                                       
+.T/14631                                                                        
+ENDBSM

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<messageBus brokerUri="failover:tcp://166.111.80.223:61616"	defaultQueryTimeout="5000">
+		<heartbeat interval="30000"></heartbeat>
+		<messageHandlers>
+			<messageHandler name="flightMessageHandler"
+				class="com.greenorbs.tagassist.messagebus.handler.FlightMessageHandler" />
+			<messageHandler name="baggageMessagehandler"
+				class="com.greenorbs.tagassist.messagebus.handler.BaggageMessageHandler" />
+			<messageHandler name="wristbandMessageHandler"
+				class="com.greenorbs.tagassist.messagebus.handler.WristbandMessageHandler" />
+			<messageHandler name="checkTunnelHandler"
+				class="com.greenorbs.tagassist.messagebus.handler.CheckTunnelMessageHandler" />
+		</messageHandlers>
+	</messageBus>
+	<storages>
+		<storage name="baggageStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryBaggageStorage" />
+		<!-- <storage name="baggageStorage"
+			class="com.greenorbs.tagassist.storage.optimal.OptimalBaggageStorage" /> -->
+		<storage name="flightStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryFlightStorage" />
+		<storage name="checkTunnelStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryCheckTunnelStorage" />
+		<storage name="notificationStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryNotificationStorage" />
+		<storage name="wristbandStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryWristbandStorage" />
+		<storage name="trackTunnelStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryTrackTunnelStorage" />
+		<storage name="mobileReaderStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryMobileReaderStorage" />
+	</storages>
+	<theme name="default" />
+	<administrator uuid="02961150-52d0-11e1-b86c-0800200c9a66"
+		name="Administrator" version="1.0">
+		<item path="home" iconKey="Toolbar.Icon.Home" textKey="Page.Home"
+			page="com.greenorbs.tagassist.administrator.ui.general.HomePage"
+			model="com.greenorbs.tagassist.administrator.ui.general.HomeModel"
+			controller="com.greenorbs.tagassist.administrator.ui.general.HomeController" />
+
+		<item path="flight" iconKey="Toolbar.Icon.Flight" textKey="Page.Flight"
+			page="com.greenorbs.tagassist.administrator.ui.flightproxy.FlightProxyPage"
+			model="com.greenorbs.tagassist.administrator.ui.flightproxy.FlightProxyModel"
+			controller="com.greenorbs.tagassist.administrator.ui.flightproxy.FlightProxyController" />
+
+		<item path="mobile" iconKey="Toolbar.Icon.Mobile" textKey="Page.Mobile"
+			page="com.greenorbs.tagassist.administrator.ui.mobile.MobilePage"
+			model="com.greenorbs.tagassist.administrator.ui.mobile.MobileModel"
+			controller="com.greenorbs.tagassist.administrator.ui.mobile.MobileController" />
+
+		<item path="checktunnel" iconKey="Toolbar.Icon.CheckTunnel"
+			textKey="Page.CheckTunnel"
+			page="com.greenorbs.tagassist.administrator.ui.checktunnel.CheckTunnelPage"
+			model="com.greenorbs.tagassist.administrator.ui.checktunnel.CheckTunnelModel"
+			controller="com.greenorbs.tagassist.administrator.ui.checktunnel.CheckTunnelController" />
+
+		<item path="wristband" iconKey="Toolbar.Icon.Wristband" textKey="Page.Wristband"
+			page="com.greenorbs.tagassist.administrator.ui.wristbandproxy.WristbandProxyPage"
+			model="com.greenorbs.tagassist.administrator.ui.wristbandproxy.WristbandProxyModel"
+			controller="com.greenorbs.tagassist.administrator.ui.wristbandproxy.WristbandProxyController" />
+
+		<item path="notification" iconKey="Toolbar.Icon.Notification"
+			textKey="Page.Notification"
+			page="com.greenorbs.tagassist.administrator.ui.notification.NotificationPage"
+			model="com.greenorbs.tagassist.administrator.ui.notification.NotificationModel"
+			controller="com.greenorbs.tagassist.administrator.ui.notification.NotificationController" />
+	</administrator>
+</configuration>

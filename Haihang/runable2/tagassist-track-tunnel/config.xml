@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<messageBus brokerUri="failover:tcp://192.168.50.3:61616" defaultQueryTimeout="1000">
+		<heartbeat interval="30000"></heartbeat>
+	</messageBus>
+	
+	<storages>
+		<storage name="baggageStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryBaggageStorage" />
+		<storage name="flightStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryFlightStorage" />
+		<storage name="checkTunnelStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryCheckTunnelStorage" />
+		<storage name="notificationStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryNotificationStorage" />
+		<storage name="wristbandStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryWristbandStorage" />
+		<storage name="trackTunnelStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryTrackTunnelStorage" />
+		<storage name="mobileReaderStorage"
+			class="com.greenorbs.tagassist.storage.memory.MemoryMobileReaderStorage" />
+	</storages>
+	
+	<sink>
+		<!-- <trackTunnel uuid="8ef11e48-a635-4655-94a6-85c0c1295250" name="径控通道1" distance="2647" ownerPool="8cf1e5f0-c30a-434d-b97b-b19ea08c671f">
+			<reader class="com.greenorbs.tagassist.device.beiyang.BeiyangTrackReader2" ip="192.168.50.200" port="5000"/>
+		</trackTunnel> -->
+		<trackTunnel uuid="6b9c6e4e-595a-4337-8875-26d351861f19" name="径控通道2" distance="675" ownerPool="8cf1e5f0-c30a-434d-b97b-b19ea08c671f">
+			<reader class="com.greenorbs.tagassist.device.beiyang.BeiyangTrackReader2" ip="192.168.50.200" port="5000"/>
+		</trackTunnel>
+	</sink>
+	
+	<physicalWorld>
+		<sortPool length="2300" width="1150">
+			<conveyor x="71" y="84" length="2164" width="978" depth="100"
+				speed="41.0" radius="165" />
+			<trackTunnels tickRate="5"/>
+			
+			<baggage length="55" width="75" />
+			
+			<guardBars gap="44" depth="33" tickRate="8" length="100" width="50" >
+				<guardBar id="1" start="171,0" end="2128,0" width="26"/>
+				<guardBar id="2" start="2212,84" end="2212,1066" width="26"/>
+				<guardBar id="3" start="171,1150" end="2128,1150" width="26"/>
+				<guardBar id="4" start="87,84" end="87,1066" width="26" />
+			</guardBars>
+		</sortPool>
+	</physicalWorld>
+</configuration>

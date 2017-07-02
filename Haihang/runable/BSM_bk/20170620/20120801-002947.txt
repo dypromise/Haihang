@@ -1,0 +1,14 @@
+DVC-3610    0555 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU495/01AUG/SEA/Y                                                            
+.O/AA1200/01AUG/DFW/Y                                                           
+.O/AA2014/01AUG/MSY/Y                                                           
+.N/0880669558001                                                                
+.D/PEK//01AUG/1356//PEK42855                                                    
+.S/Y/19A/C/106//Y                                                               
+.W/K/1/15                                                                       
+.P/1JONES/CAMILLEELYSE                                                          
+.L/NCSW1Y                                                                       
+.T/42857                                                                        
+ENDBSM

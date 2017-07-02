@@ -1,0 +1,12 @@
+DVC-3610    0301 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU7975/01AUG/YYZ/Y                                                           
+.N/3880527814001                                                                
+.N/3880517476001                                                                
+.D/PEK//01AUG/1101//PEK42846                                                    
+.S/Y/41D/C/091//Y                                                               
+.P/1SIKARSKIE/JAMESBANKSMR                                                      
+.L/MC9M2N                                                                       
+.T/42848                                                                        
+ENDBSM

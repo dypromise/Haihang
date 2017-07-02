@@ -1,0 +1,12 @@
+DVC-3610    0448 01AUG12                                                        
+BSM                                                                             
+DEL                                                                             
+.V/1LPEK                                                                        
+.F/HU489/01AUG/TXL/C                                                            
+.N/3880956060001                                                                
+.S/N//N/182//N                                                                  
+.P/1MITTRICH/WILHELMFRIEDRICHMR                                                 
+.Y/HU9129574491                                                                 
+.L/NZF9KB                                                                       
+.T/42797                                                                        
+ENDBSM

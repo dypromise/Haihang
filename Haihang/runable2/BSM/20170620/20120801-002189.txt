@@ -1,0 +1,13 @@
+DVC-3610    0358 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU489/01AUG/TXL/C                                                            
+.N/3880100551003                                                                
+.D/PEK//01AUG/1159//PEK42798                                                    
+.S/Y/2H/C/147//Y                                                                
+.W/K/3/15                                                                       
+.P/1PISTOR/RALFDIPL                                                             
+.Y/HU8897087880                                                                 
+.L/MXSHPG                                                                       
+.T/42800                                                                        
+ENDBSM

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<appender name="Console" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} %p (%C:%L) [%t]- %m%n" />
+		</layout>
+	</appender>
+	<appender name="logfile" class="org.apache.log4j.RollingFileAppender">
+		<!--日志文件名 -->
+		<param name="File" value="logs/log.txt" />
+		<!--不追加到原文件 -->
+		<param name="Append" value="true" />
+		<!--以日志文件大小变换文件名 -->
+		<param name="rollingStyle" value="Size" />
+		<!--最大变换数量，-1为不限制 -->
+		<param name="MaxBackupIndex" value="-1" />
+		<!--最大文件大小 -->
+		<parame name="MaxFileSize" value="50GB" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} %p (%c:%l) [%t]- %m%n" />
+		</layout>
+	</appender>
+	
+	<logger name="com.greenorbs.tagassist">
+		<level value="INFO" />
+	</logger>
+	
+	<root>
+		<level value="WARM" />
+		<appender-ref ref="Console" />
+		<appender-ref ref="logfile" />
+	</root>
+
+
+</log4j:configuration>

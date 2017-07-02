@@ -1,0 +1,14 @@
+DVC-3610    0442 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU495/01AUG/SEA/Y                                                            
+.O/AA532/01AUG/ORD/S                                                            
+.O/AA4111/01AUG/CLT/S                                                           
+.N/0880318741001                                                                
+.D/PEK//01AUG/1243//PEK42852                                                    
+.S/Y/27C/C/024//Y                                                               
+.W/K/1/19                                                                       
+.P/1CRAWFORD/MORGANENGLISH                                                      
+.L/MDLH0S                                                                       
+.T/42854                                                                        
+ENDBSM

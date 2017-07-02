@@ -1,0 +1,11 @@
+DVC-3610    1923 31JUL12                                                        
+BSM                                                                             
+.V/1TPEK                                                                        
+.F/HU7195/01AUG/FOC/Y                                                           
+.I/HU496/31JUL/SEA/S                                                            
+.N/3880847148004                                                                
+.S/Y/6A/C/010//Y                                                                
+.W/K/4/80                                                                       
+.P/1TANG/JERRYN                                                                 
+.L/MCGECL                                                                       
+ENDBSM

@@ -1,0 +1,13 @@
+DVC-3610    0852 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU7933/01AUG/ALA/Y                                                           
+.I/HU7180/31JUL/SYX/Y                                                           
+.N/3880358543001                                                                
+.D/PEK//01AUG/1652//PEK42840                                                    
+.S/Y/20E/C/050//Y                                                               
+.W/K/1/25                                                                       
+.P/1ZILOTOVA/ELVIRA                                                             
+.L/NZM7M5                                                                       
+.T/42842                                                                        
+ENDBSM

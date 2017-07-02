@@ -1,0 +1,12 @@
+DVC-3610    2231 31JUL12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU7382/01AUG/HAK/Y                                                           
+.N/3880448878001                                                                
+.D/PEK//01AUG/0631//PEK14651                                                    
+.S/Y/25C/C/110//Y                                                               
+.W/K/1/20                                                                       
+.P/1COOLS/KOENRAADLOUISME                                                       
+.L/MF6JMY                                                                       
+.T/14657                                                                        
+ENDBSM

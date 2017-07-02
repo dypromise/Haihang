@@ -1,0 +1,12 @@
+DVC-3610    2355 31JUL12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU7967/01AUG/IKT/Y                                                           
+.N/3880238874001                                                                
+.D/PEK//01AUG/0756//PEK42816                                                    
+.S/Y/8D/C/057//Y                                                                
+.W/K/1/10                                                                       
+.P/1SOROKIN/VLADIMIR                                                            
+.L/MWGES1                                                                       
+.T/42818                                                                        
+ENDBSM

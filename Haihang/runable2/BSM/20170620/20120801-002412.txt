@@ -1,0 +1,13 @@
+DVC-3610    0430 01AUG12                                                        
+BSM                                                                             
+.V/1TPEK                                                                        
+.F/HU495/01AUG/SEA/Y                                                            
+.O/AA523/01AUG/DFW/N                                                            
+.N/0880546400001                                                                
+.N/0880318726001                                                                
+.S/Y/22D/C/012//Y                                                               
+.W/K/2/22                                                                       
+.P/1ROBERTS/DOUG                                                                
+.Y/AAJML8378                                                                    
+.L/NFFMWR                                                                       
+ENDBSM

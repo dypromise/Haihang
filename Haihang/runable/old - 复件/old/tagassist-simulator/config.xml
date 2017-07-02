@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<sortPool length="2300" width="1150">
+		
+		<conveyor x="71" y="84" length="2164" width="978" depth="100"
+			speed="41.0" radius="165" />
+
+		<baggage length="55" width="75" dashLength="5" />
+
+		<guardBars gap="44" depth="33" tickRate="8" length="100"
+			width="50">
+			<guardBar id="1" start="171,0" end="2128,0" width="26" />
+			<guardBar id="2" start="2212,84" end="2212,1066" width="26" />
+			<guardBar id="3" start="171,1150" end="2128,1150" width="26" />
+			<guardBar id="4" start="87,84" end="87,1066" width="26" />
+		</guardBars>
+	</sortPool>
+</configuration>

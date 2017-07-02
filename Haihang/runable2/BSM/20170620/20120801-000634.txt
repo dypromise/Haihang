@@ -1,0 +1,12 @@
+DVC-3610    2255 31JUL12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU7245/01AUG/URC/F                                                           
+.N/3880129472002                                                                
+.D/PEK//01AUG/0655//PEK16551                                                    
+.S/Y/16H/C/232//Y                                                               
+.W/K/2/27                                                                       
+.P/1SHELTON/MARTINROONEY                                                        
+.L/MLVS85                                                                       
+.T/16553                                                                        
+ENDBSM

@@ -1,0 +1,13 @@
+DVC-3610    1544 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU7957/02AUG/ZRH/Y                                                           
+.I/HU7146/01AUG/URC/Y                                                           
+.N/3880699842002                                                                
+.D/PEK//01AUG/2345//PEK42855                                                    
+.S/Y/15D/C/113//Y                                                               
+.W/K/2/30                                                                       
+.P/1KAYSER/KADILIYAMRS                                                          
+.L/NZHNMS                                                                       
+.T/42857                                                                        
+ENDBSM

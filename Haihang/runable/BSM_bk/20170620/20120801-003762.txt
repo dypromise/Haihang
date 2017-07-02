@@ -1,0 +1,14 @@
+DVC-3610    0948 01AUG12                                                        
+BSM                                                                             
+DEL                                                                             
+.V/1LPEK                                                                        
+.F/HU7345/01AUG/URC/Y                                                           
+.I/AS2014/31JUL/PEK/V                                                           
+.I/HU496/31JUL/PEK/S                                                            
+.N/0027440814001                                                                
+.D/PEK//01AUG/1748//PEK16572                                                    
+.S/N//N/009//N                                                                  
+.P/1CHANG/VICTORIA                                                              
+.L/NVRH62                                                                       
+.T/16575                                                                        
+ENDBSM

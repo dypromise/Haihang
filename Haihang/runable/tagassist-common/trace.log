@@ -1,0 +1,16 @@
+2016-09-09 19:33:25,794 [main] INFO (com.greenorbs.tagassist.device.simulation.SimulatedReader:66) - It is going to start to the beiyang reader
+2016-09-09 19:34:32,737 [main] INFO (com.greenorbs.tagassist.device.simulation.SimulatedReader:66) - It is going to start to the beiyang reader
+2016-09-09 19:45:52,500 [main] INFO (com.greenorbs.tagassist.device.simulation.SimulatedReader:66) - It is going to start to the beiyang reader
+2016-09-09 19:47:13,719 [main] INFO (com.greenorbs.tagassist.device.simulation.SimulatedReader:66) - It is going to start to the beiyang reader
+2016-09-09 19:48:40,867 [main] INFO (com.greenorbs.tagassist.device.simulation.SimulatedReader:66) - It is going to start to the beiyang reader
+2016-09-09 19:49:14,315 [main] INFO (com.greenorbs.tagassist.device.simulation.SimulatedReader:66) - It is going to start to the beiyang reader
+2016-09-09 19:49:37,754 [main] INFO (com.greenorbs.tagassist.device.simulation.SimulatedReader:66) - It is going to start to the beiyang reader
+2016-09-09 19:49:51,874 [main] INFO (com.greenorbs.tagassist.device.simulation.SimulatedReader:66) - It is going to start to the beiyang reader
+2016-09-09 19:51:33,550 [main] INFO (com.greenorbs.tagassist.device.simulation.SimulatedReader:66) - It is going to start to the beiyang reader
+2016-09-09 19:52:17,337 [main] INFO (com.greenorbs.tagassist.device.simulation.SimulatedReader:66) - It is going to start to the beiyang reader
+2016-09-09 19:53:36,842 [main] INFO (com.greenorbs.tagassist.device.simulation.SimulatedReader:66) - It is going to start to the beiyang reader
+2016-09-09 20:00:24,991 [main] INFO (com.greenorbs.tagassist.device.beiyang.BeiyangTrackReader:66) - It is going to start to the beiyang reader
+2016-09-09 20:00:46,034 [main] ERROR (com.greenorbs.tagassist.device.beiyang.BeiyangTrackReader:174) - An I/O error occurs when creating the socket.
+2016-09-09 20:01:39,550 [main] INFO (com.greenorbs.tagassist.device.simulation.SimulatedReader:66) - It is going to start to the beiyang reader
+2016-09-09 20:18:31,686 [main] INFO (com.greenorbs.tagassist.device.beiyang.BeiyangTrackReader:66) - It is going to start to the beiyang reader
+2016-09-09 20:18:52,703 [main] ERROR (com.greenorbs.tagassist.device.beiyang.BeiyangTrackReader:174) - An I/O error occurs when creating the socket.

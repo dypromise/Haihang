@@ -1,0 +1,11 @@
+DVC-3610    1927 31JUL12                                                        
+BSM                                                                             
+.V/1TPEK                                                                        
+.F/HU7803/01AUG/CAN/Y                                                           
+.I/HU496/31JUL/SEA/U                                                            
+.N/3880218372002                                                                
+.S/Y/17F/C/003//Y                                                               
+.W/K/2/33                                                                       
+.P/1RODRIGUEZ/SATURNINODIOSNEDY                                                 
+.L/MEXR0W                                                                       
+ENDBSM

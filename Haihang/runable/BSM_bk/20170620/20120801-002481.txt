@@ -1,0 +1,12 @@
+DVC-3610    0441 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU495/01AUG/SEA/Y                                                            
+.N/3880935928002                                                                
+.D/PEK//01AUG/1242//PEK42858                                                    
+.S/Y/22H/C/022//Y                                                               
+.W/K/2/40                                                                       
+.P/1YANG/MELISSAJIA                                                             
+.L/ME498H                                                                       
+.T/42860                                                                        
+ENDBSM

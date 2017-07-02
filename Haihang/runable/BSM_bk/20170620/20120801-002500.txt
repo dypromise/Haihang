@@ -1,0 +1,13 @@
+DVC-3610    0445 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU495/01AUG/SEA/Y                                                            
+.O/AS370/01AUG/SMF/V                                                            
+.N/0880218882001                                                                
+.D/PEK//01AUG/1246//PEK42855                                                    
+.S/Y/14F/C/029//Y                                                               
+.W/K/1/21                                                                       
+.P/1YANG/JESSICARENA                                                            
+.L/MH4H89                                                                       
+.T/42857                                                                        
+ENDBSM

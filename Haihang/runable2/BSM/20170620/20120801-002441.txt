@@ -1,0 +1,12 @@
+DVC-3610    0434 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU7965/01AUG/LED/C                                                           
+.N/3880200244001                                                                
+.D/PEK//01AUG/1235//PEK42822                                                    
+.S/Y/2G/C/031//Y                                                                
+.W/K/1/17                                                                       
+.P/1PARAMONOV/EVGENYMR                                                          
+.L/NEJHDQ                                                                       
+.T/42824                                                                        
+ENDBSM

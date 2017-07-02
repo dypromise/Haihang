@@ -1,0 +1,12 @@
+DVC-3610    2339 31JUL12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU7967/01AUG/IKT/Y                                                           
+.N/3880100299001                                                                
+.D/PEK//01AUG/0739//PEK42813                                                    
+.S/Y/23B/C/010//Y                                                               
+.W/K/1/19                                                                       
+.P/1OGIENKO/VITALYMR                                                            
+.L/MGRMM8                                                                       
+.T/42815                                                                        
+ENDBSM

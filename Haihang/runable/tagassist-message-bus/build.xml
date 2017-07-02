@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="tagassist-message-bus">
+    <property environment="env"/>
+    <property name="tagassist-administrator.location" value="../tagassist-administrator"/>
+    <property name="tagassist-check-tunnel.location" value="../tagassist-check-tunnel"/>
+    <property name="tagassist-checkout.location" value="../tagassist-checkout"/>
+    <property name="tagassist-common-ui.location" value="../tagassist-common-ui"/>
+    <property name="tagassist-data-center.location" value="../tagassist-data-center"/>
+    <property name="tagassist-flight-proxy.location" value="../tagassist-flight-proxy"/>
+    <property name="tagassist-storage.location" value="../tagassist-storage"/>
+    <property name="tagassist-track-tunnel.location" value="../tagassist-track-tunnel"/>
+    <property name="tagassist-virtualization.location" value="../tagassist-virtualization"/>
+    <property name="tagassist-visual-notifier.location" value="../tagassist-visual-notifier"/>
+    <property name="tagassist-web-service.location" value="../tagassist-web-service"/>
+    <property name="tagassist-wristband-proxy.location" value="../tagassist-wristband-proxy"/>
+    <property name="tagassist-common.location" value="../tagassist-common"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="EAR Libraries.libraryclasspath"/>
+    <path id="tagassist-common.classpath">
+        <pathelement location="${tagassist-common.location}/bin"/>
+        <pathelement location="${tagassist-common.location}/libs/activemq-all-5.5.1.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/antlr-2.7.7.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/classmate-0.5.4.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-beanutils-1.8.3.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-collections-3.2.1.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-configuration-1.7.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-lang-2.6.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-lang3-3.1.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-logging-1.1.1.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/core.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/dom4j-1.6.1.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/hibernate-commons-annotations-4.0.1.Final.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/hibernate-core-4.0.0.Final.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/jandex-1.0.3.Final.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/javassist-3.12.1.GA.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/jboss-logging-3.1.0.CR2.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/json-lib-2.4-jdk15.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/log4j-1.2.16.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/slf4j-log4j12-1.5.11.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/jna.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-codec-1.6.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/spring-beans-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/spring-context-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/spring-core-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/ltkjava-10.16.0.240.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/jdom-1.1.3.jar"/>
+        <path refid="EAR Libraries.libraryclasspath"/>
+        <pathelement location="${tagassist-common.location}/libs/RXTXcomm.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/spring-expression-3.2.0.RELEASE.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/commons-httpclient-3.1.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/crowd-integration-client-2.5.3.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/crowd-integration-client-rest-2.5.3.jar"/>
+        <pathelement location="${tagassist-common.location}/libs/slf4j-api-1.5.8.jar"/>
+    </path>
+    <path id="tagassist-message-bus.classpath">
+        <pathelement location="bin"/>
+        <path refid="tagassist-common.classpath"/>
+        <pathelement location="libs/json-lib-2.4-jdk15.jar"/>
+        <pathelement location="libs/slf4j-log4j12-1.5.11.jar"/>
+        <pathelement location="libs/activemq-all-5.5.1.jar"/>
+        <pathelement location="libs/ezmorph-1.0.6.jar"/>
+        <pathelement location="libs/log4j-1.2.16.jar"/>
+        <pathelement location="libs/commons-beanutils-1.8.3.jar"/>
+        <pathelement location="libs/commons-lang3-3.1.jar"/>
+        <pathelement location="libs/spring-beans-3.2.0.RELEASE.jar"/>
+        <pathelement location="libs/spring-context-3.2.0.RELEASE.jar"/>
+        <pathelement location="libs/spring-core-3.2.0.RELEASE.jar"/>
+        <pathelement location="libs/spring-expression-3.2.0.RELEASE.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall">
+        <ant antfile="build.xml" dir="${tagassist-common.location}" inheritAll="false" target="clean"/>
+    </target>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects">
+        <ant antfile="build.xml" dir="${tagassist-common.location}" inheritAll="false" target="build-project"/>
+    </target>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="false" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="tagassist-message-bus.classpath"/>
+        </javac>
+    </target>
+</project>

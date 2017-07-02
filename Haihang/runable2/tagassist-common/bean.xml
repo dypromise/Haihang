@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	xmlns:util="http://www.springframework.org/schema/util">
+
+	<bean id="trackReader"
+		class="com.greenorbs.tagassist.device.beiyang.BeiyangTrackReader">
+		<property name="iP">
+			<value>192.168.50.200</value>
+		</property>
+		<property name="port">
+			<value>5000</value>
+		</property>
+	</bean>
+	<!-- <bean id="trackReader2" -->
+	<!-- class="com.greenorbs.tagassist.device.beiyang.BeiyangTrackReader2"> -->
+	<!-- <property name="iP"><value>192.168.50.200</value></property> -->
+	<!-- <property name="port"><value>5000</value></property> -->
+	<!-- </bean> -->
+	<bean id="controller"
+		class="com.greenorbs.tagassist.device.beiyang2.BeiyangController"
+		scope="singleton">
+		<property name="serialPort" value="COM1" />
+		<property name="baudRate" value="38400" />
+	</bean>
+	<bean id="barcodeScanner"
+		class="com.greenorbs.tagassist.device.beiyang2.BeiyangBarcodeScanner">
+	</bean>
+	<bean id="cautionLight"
+		class="com.greenorbs.tagassist.device.beiyang2.BeiyangCautionLight">
+		<property name="controller" ref="controller"></property>
+	</bean>
+	<bean id="infraredRay"
+		class="com.greenorbs.tagassist.device.beiyang2.BeiyangInfraredRay">
+		<property name="controller" ref="controller"></property>
+	</bean>
+	<bean id="ledBoard" class="com.greenorbs.tagassist.device.beiyang2.BeiyangLedBoard">
+		<property name="controller" ref="controller"></property>
+	</bean>
+	<bean id="statusLight"
+		class="com.greenorbs.tagassist.device.beiyang2.BeiyangStatusLight">
+		<property name="controller" ref="controller"></property>
+	</bean>
+</beans>

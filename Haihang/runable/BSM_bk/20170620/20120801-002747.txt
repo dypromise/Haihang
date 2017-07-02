@@ -1,0 +1,12 @@
+DVC-3610    0524 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU495/01AUG/SEA/Y                                                            
+.N/3880679459001                                                                
+.D/PEK//01AUG/1324//PEK42855                                                    
+.S/Y/12G/C/066//Y                                                               
+.W/K/1/2                                                                        
+.P/1BORLAND/LINDA                                                               
+.L/NGK5TZ                                                                       
+.T/42857                                                                        
+ENDBSM

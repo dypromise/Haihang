@@ -1,0 +1,13 @@
+DVC-3610    0519 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU495/01AUG/SEA/Y                                                            
+.O/US6105/01AUG/ORD/H                                                           
+.N/0880986577001                                                                
+.D/PEK//01AUG/1320//PEK42852                                                    
+.S/Y/31G/C/063//Y                                                               
+.W/K/1/18                                                                       
+.P/1KOSOKO/MORIAMOLUWAKEMIMISS                                                  
+.L/NJB8GF                                                                       
+.T/42854                                                                        
+ENDBSM

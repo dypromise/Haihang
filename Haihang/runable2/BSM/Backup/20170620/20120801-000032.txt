@@ -1,0 +1,11 @@
+DVC-3610    1926 31JUL12                                                        
+BSM                                                                             
+.V/1TPEK                                                                        
+.F/HU7195/01AUG/FOC/Y                                                           
+.I/HU496/31JUL/SEA/N                                                            
+.N/3880597461002                                                                
+.S/Y/6D/C/012//Y                                                                
+.W/K/2/40                                                                       
+.P/1ZHENG/ZHAISHENG                                                             
+.L/MEDDY9                                                                       
+ENDBSM

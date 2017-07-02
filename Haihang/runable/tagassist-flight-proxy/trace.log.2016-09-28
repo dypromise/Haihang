@@ -1,0 +1,106 @@
+2016-09-28 20:07:07,769 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:07:08,152 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:07:08,154 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:07:08,155 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:07:08,156 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:07:08,157 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:14:02,399 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:14:02,712 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:14:02,719 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:14:02,724 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:14:02,727 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:14:02,729 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:23:01,882 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:23:02,167 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:23:02,171 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:23:02,172 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:23:02,173 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:23:02,177 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:31:43,814 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:31:44,098 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:31:44,103 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:31:44,104 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:31:44,105 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:31:44,106 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:34:12,577 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:34:12,785 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:34:12,787 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:34:12,804 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:34:12,804 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:34:12,805 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:34:13,347 [ActiveMQ Task-1] INFO (org.apache.activemq.transport.failover.FailoverTransport:891) - Successfully connected to tcp://localhost:61616
+2016-09-28 20:34:13,549 [ActiveMQ Task-2] INFO (org.apache.activemq.transport.failover.FailoverTransport:891) - Successfully connected to tcp://localhost:61616
+2016-09-28 20:34:13,649 [ActiveMQ Task-1] INFO (org.apache.activemq.transport.failover.FailoverTransport:891) - Successfully connected to tcp://localhost:61616
+2016-09-28 20:34:13,846 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:75) - Message published: com.greenorbs.tagassist.messagebus.message.GeneralMessages$HardwareInfoReport: {"component":1,"customClass":"","customJSON":"","hostname":"","ipAddress":"","macAddress":"","messageId":"08c68085-eab4-41ce-b45c-01727b7450e7","name":"Flight Proxy","needConfirm":false,"softwareVersion":"3.0.0-alpha","source":"71ae0ff0-5e21-11e1-b86c-0800200c9a66","status":1,"timestamp":1475066053656}
+2016-09-28 20:34:13,853 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxyWorker:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.FlightProxyMessages$FlightScheduled
+2016-09-28 20:34:13,859 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxyWorker:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$FlightTerminate
+2016-09-28 20:34:14,931 [main] INFO (com.greenorbs.tagassist.messagebus.util.querier.BusQuerier:39) - Query sent: com.greenorbs.tagassist.messagebus.message.GeneralQueries$QueryFlightList: {"component":1,"customClass":"","customJSON":"","messageId":"bc14c8fa-ec3a-4d5c-a3c3-267df77abcaa","name":"Flight Proxy","needConfirm":false,"source":"71ae0ff0-5e21-11e1-b86c-0800200c9a66","timestamp":1475066053859}
+2016-09-28 20:34:14,932 [main] INFO (com.greenorbs.tagassist.messagebus.util.querier.BusQuerier:36) - Query timed out. Will try again: com.greenorbs.tagassist.messagebus.message.GeneralQueries$QueryFlightList: {"component":1,"customClass":"","customJSON":"","messageId":"bc14c8fa-ec3a-4d5c-a3c3-267df77abcaa","name":"Flight Proxy","needConfirm":false,"source":"71ae0ff0-5e21-11e1-b86c-0800200c9a66","timestamp":1475066053859}
+2016-09-28 20:34:16,950 [main] INFO (com.greenorbs.tagassist.messagebus.util.querier.BusQuerier:39) - Query sent: com.greenorbs.tagassist.messagebus.message.GeneralQueries$QueryFlightList: {"component":1,"customClass":"","customJSON":"","messageId":"bc14c8fa-ec3a-4d5c-a3c3-267df77abcaa","name":"Flight Proxy","needConfirm":false,"source":"71ae0ff0-5e21-11e1-b86c-0800200c9a66","timestamp":1475066053859}
+2016-09-28 20:34:16,951 [main] INFO (com.greenorbs.tagassist.messagebus.util.querier.BusQuerier:36) - Query timed out. Will try again: com.greenorbs.tagassist.messagebus.message.GeneralQueries$QueryFlightList: {"component":1,"customClass":"","customJSON":"","messageId":"bc14c8fa-ec3a-4d5c-a3c3-267df77abcaa","name":"Flight Proxy","needConfirm":false,"source":"71ae0ff0-5e21-11e1-b86c-0800200c9a66","timestamp":1475066053859}
+2016-09-28 20:34:19,971 [main] INFO (com.greenorbs.tagassist.messagebus.util.querier.BusQuerier:39) - Query sent: com.greenorbs.tagassist.messagebus.message.GeneralQueries$QueryFlightList: {"component":1,"customClass":"","customJSON":"","messageId":"bc14c8fa-ec3a-4d5c-a3c3-267df77abcaa","name":"Flight Proxy","needConfirm":false,"source":"71ae0ff0-5e21-11e1-b86c-0800200c9a66","timestamp":1475066053859}
+2016-09-28 20:34:19,972 [main] WARN (com.greenorbs.tagassist.messagebus.util.querier.BusQuerier:49) - Query failed after 3 tries. Will give up.
+2016-09-28 20:34:19,988 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxyWorker:54) - Cache initialized.
+2016-09-28 20:34:19,989 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:81) - Flight proxy started.
+2016-09-28 20:38:36,221 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:38:36,489 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:38:36,491 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:38:36,492 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:38:36,492 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:38:36,493 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:39:58,602 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:39:58,795 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:39:58,798 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:39:58,799 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:39:58,800 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:39:58,808 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:40:38,080 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:40:38,263 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:40:38,265 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:40:38,265 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:40:38,266 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:40:38,266 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:41:17,759 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:41:17,946 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:41:17,948 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:41:17,949 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:41:17,949 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:41:17,950 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:43:38,693 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:43:38,876 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:43:38,878 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:43:38,879 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:43:38,879 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:43:38,880 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:44:50,937 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:44:51,155 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:44:51,157 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:44:51,157 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:44:51,158 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:44:51,158 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:56:30,305 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:56:30,832 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:56:30,834 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:56:30,838 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:56:30,840 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:56:30,841 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:56:49,286 [main] WARN (com.greenorbs.tagassist.messagebus.MessageBusConfiguration:102) - Unable to load configuration from spring. Use config.xml instead.
+2016-09-28 20:56:49,757 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:69) - Flight proxy is starting up.
+2016-09-28 20:56:49,759 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareControl
+2016-09-28 20:56:49,761 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoSet
+2016-09-28 20:56:49,761 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareInfoGet
+2016-09-28 20:56:49,763 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$HardwareCollect
+2016-09-28 20:56:50,506 [ActiveMQ Task-1] INFO (org.apache.activemq.transport.failover.FailoverTransport:891) - Successfully connected to tcp://localhost:61616
+2016-09-28 20:56:50,787 [ActiveMQ Task-2] INFO (org.apache.activemq.transport.failover.FailoverTransport:891) - Successfully connected to tcp://localhost:61616
+2016-09-28 20:56:50,916 [ActiveMQ Task-1] INFO (org.apache.activemq.transport.failover.FailoverTransport:891) - Successfully connected to tcp://localhost:61616
+2016-09-28 20:56:51,284 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:75) - Message published: com.greenorbs.tagassist.messagebus.message.GeneralMessages$HardwareInfoReport: {"component":1,"customClass":"","customJSON":"","hostname":"","ipAddress":"","macAddress":"","messageId":"717ac0d3-eca0-46ab-a990-1509fee5fd86","name":"Flight Proxy","needConfirm":false,"softwareVersion":"3.0.0-alpha","source":"71ae0ff0-5e21-11e1-b86c-0800200c9a66","status":1,"timestamp":1475067410923}
+2016-09-28 20:56:51,289 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxyWorker:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.FlightProxyMessages$FlightScheduled
+2016-09-28 20:56:51,318 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxyWorker:48) - Topic subscribed: com.greenorbs.tagassist.messagebus.message.AdministratorMessages$FlightTerminate
+2016-09-28 20:56:52,446 [main] INFO (com.greenorbs.tagassist.messagebus.util.querier.BusQuerier:39) - Query sent: com.greenorbs.tagassist.messagebus.message.GeneralQueries$QueryFlightList: {"component":1,"customClass":"","customJSON":"","messageId":"80b8cedf-333c-4765-8c70-659f884c9f60","name":"Flight Proxy","needConfirm":false,"source":"71ae0ff0-5e21-11e1-b86c-0800200c9a66","timestamp":1475067411318}
+2016-09-28 20:56:52,447 [main] INFO (com.greenorbs.tagassist.messagebus.util.querier.BusQuerier:36) - Query timed out. Will try again: com.greenorbs.tagassist.messagebus.message.GeneralQueries$QueryFlightList: {"component":1,"customClass":"","customJSON":"","messageId":"80b8cedf-333c-4765-8c70-659f884c9f60","name":"Flight Proxy","needConfirm":false,"source":"71ae0ff0-5e21-11e1-b86c-0800200c9a66","timestamp":1475067411318}
+2016-09-28 20:56:54,463 [main] INFO (com.greenorbs.tagassist.messagebus.util.querier.BusQuerier:39) - Query sent: com.greenorbs.tagassist.messagebus.message.GeneralQueries$QueryFlightList: {"component":1,"customClass":"","customJSON":"","messageId":"80b8cedf-333c-4765-8c70-659f884c9f60","name":"Flight Proxy","needConfirm":false,"source":"71ae0ff0-5e21-11e1-b86c-0800200c9a66","timestamp":1475067411318}
+2016-09-28 20:56:54,463 [main] INFO (com.greenorbs.tagassist.messagebus.util.querier.BusQuerier:36) - Query timed out. Will try again: com.greenorbs.tagassist.messagebus.message.GeneralQueries$QueryFlightList: {"component":1,"customClass":"","customJSON":"","messageId":"80b8cedf-333c-4765-8c70-659f884c9f60","name":"Flight Proxy","needConfirm":false,"source":"71ae0ff0-5e21-11e1-b86c-0800200c9a66","timestamp":1475067411318}
+2016-09-28 20:56:57,476 [main] INFO (com.greenorbs.tagassist.messagebus.util.querier.BusQuerier:39) - Query sent: com.greenorbs.tagassist.messagebus.message.GeneralQueries$QueryFlightList: {"component":1,"customClass":"","customJSON":"","messageId":"80b8cedf-333c-4765-8c70-659f884c9f60","name":"Flight Proxy","needConfirm":false,"source":"71ae0ff0-5e21-11e1-b86c-0800200c9a66","timestamp":1475067411318}
+2016-09-28 20:56:57,476 [main] WARN (com.greenorbs.tagassist.messagebus.util.querier.BusQuerier:49) - Query failed after 3 tries. Will give up.
+2016-09-28 20:56:57,603 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxyWorker:54) - Cache initialized.
+2016-09-28 20:56:57,604 [main] INFO (com.greenorbs.tagassist.flightproxy.FlightProxy:81) - Flight proxy started.

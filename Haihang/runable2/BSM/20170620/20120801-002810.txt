@@ -1,0 +1,13 @@
+DVC-3610    0535 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU495/01AUG/SEA/Y                                                            
+.O/SY284/01AUG/MSP/Z                                                            
+.N/0880598016001                                                                
+.D/PEK//01AUG/1336//PEK42855                                                    
+.S/Y/25A/C/075//Y                                                               
+.W/K/1/23                                                                       
+.P/1MANKOWSKI/STEPHANIEANNMS                                                    
+.L/MCF87E                                                                       
+.T/42857                                                                        
+ENDBSM

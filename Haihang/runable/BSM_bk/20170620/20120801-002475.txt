@@ -1,0 +1,14 @@
+DVC-3610    0440 01AUG12                                                        
+BSM                                                                             
+.V/1LPEK                                                                        
+.F/HU495/01AUG/SEA/Y                                                            
+.O/AA532/01AUG/ORD/V                                                            
+.O/AA4111/01AUG/CLT/V                                                           
+.N/0880219473001                                                                
+.D/PEK//01AUG/1241//PEK42852                                                    
+.S/Y/28H/C/021//Y                                                               
+.W/K/1/16                                                                       
+.P/1HUFFMAN/CARLYMAHURIN                                                        
+.L/MBTWPN                                                                       
+.T/42854                                                                        
+ENDBSM
